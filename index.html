@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Balloon Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="difficultyMenu">
+  <h1>Select Difficulty</h1>
+  <button class="diff-btn" data-speed="1000">Easy</button>
+  <button class="diff-btn" data-speed="700">Medium</button>
+  <button class="diff-btn" data-speed="500">Hard</button>
+</div>
+
+  <div id="score">Score: 0</div>
+  <div id="missed">Missed: 0</div>
+  <div id="timer">Time: 60</div>
+  <div id="gameArea"></div>
+
+  <div id="endScreen">
+  <h2>Game Over</h2>
+  <p id="finalScore"></p>
+  <p id="finalMissed"></p>
+  <button id="retryBtn">Retry</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
